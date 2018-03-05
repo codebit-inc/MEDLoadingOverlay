@@ -1,0 +1,16 @@
+PODS:
+  - MedusaKit (0.0.7):
+    - MedusaKit/Common (= 0.0.7)
+    - MedusaKit/LocationService (= 0.0.7)
+  - MedusaKit/Common (0.0.7)
+  - MedusaKit/LocationService (0.0.7)
+
+DEPENDENCIES:
+  - MedusaKit
+
+SPEC CHECKSUMS:
+  MedusaKit: db3bbf0ed18ef42a3f337b64b24ec98d1c5b60cf
+
+PODFILE CHECKSUM: a67893b8f40c33da43ea51e8ff0c49d3d5dd2f2e
+
+COCOAPODS: 1.4.0
