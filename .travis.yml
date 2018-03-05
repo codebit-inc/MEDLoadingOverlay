@@ -7,7 +7,7 @@ env:
     - LC_ALL=en_US.UTF-8
     - XCODE_PROJECT=MEDLoadingOverlay.xcworkspace
   matrix:
-    - SCHEME="MedusaKit"
+    - SCHEME="MEDLoadingOverlay"
 
 before_install:
   - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
