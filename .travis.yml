@@ -1,0 +1,17 @@
+osx_image: xcode9.2
+language: objective-c
+
+env:
+  global:
+    - LANG=en_US.UTF-8
+    - LC_ALL=en_US.UTF-8
+    - XCODE_PROJECT=MedusaKit.xcodeproj
+  matrix:
+    - SCHEME="MedusaKit"
+
+before_install:
+  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+
+script:
+  - set -o pipefail
+  - xcodebuild -project "$XCODE_PROJECT" -scheme "$SCHEME" -configuration Debug clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty -c
