@@ -10,8 +10,8 @@ env:
     - SCHEME="MEDLoadingOverlay"
 
 before_install:
-  - rvm use system
   - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+  - gem install cocoapods
 
 script:
   - set -o pipefail
