@@ -1,11 +1,11 @@
-osx_image: xcode9.2
+osx_image: xcode9.3beta
 language: objective-c
 
 env:
   global:
     - LANG=en_US.UTF-8
     - LC_ALL=en_US.UTF-8
-    - XCODE_PROJECT=MEDLoadingOverlay.xcworkspace
+    - XCODE_WORKSPACE=MEDLoadingOverlay.xcworkspace
   matrix:
     - SCHEME="MEDLoadingOverlay"
 
@@ -15,4 +15,4 @@ before_install:
 script:
   - set -o pipefail
   - pod update --verbose
-  - xcodebuild -workspace "$XCODE_PROJECT" -scheme "$SCHEME" -configuration Debug clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty -c
+  - xcodebuild -workspace "$XCODE_WORKSPACE" -scheme "$SCHEME" -configuration Debug clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty -c
