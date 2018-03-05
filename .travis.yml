@@ -5,7 +5,7 @@ env:
   global:
     - LANG=en_US.UTF-8
     - LC_ALL=en_US.UTF-8
-    - XCODE_PROJECT=MedusaKit.xcodeproj
+    - XCODE_PROJECT=MEDLoadingOverlay.xcworkspace
   matrix:
     - SCHEME="MedusaKit"
 
@@ -14,4 +14,5 @@ before_install:
 
 script:
   - set -o pipefail
-  - xcodebuild -project "$XCODE_PROJECT" -scheme "$SCHEME" -configuration Debug clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty -c
+  - pod update --verbose
+  - xcodebuild -workspace "$XCODE_PROJECT" -scheme "$SCHEME" -configuration Debug clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty -c
