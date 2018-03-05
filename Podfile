@@ -2,10 +2,12 @@
 platform :ios, '9.0'
 
 target 'MEDLoadingOverlay' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
+  workspace 'MEDLoadingOverlay.xcworkspace'
+  project 'MEDLoadingOverlay.xcodeproj'
+    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
 
-  # Pods for MEDLoadingOverlay
-  pod 'MedusaKit'
+    # Pods for MEDLoadingOverlay
+    pod 'MedusaKit'
 
 end
