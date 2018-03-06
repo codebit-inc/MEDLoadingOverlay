@@ -8,9 +8,9 @@
 
 import UIKit
 
-class MEDLoadingOverlay: UIView {
+public class MEDLoadingOverlay: UIView {
 
-    static let shared = MEDLoadingOverlay()
+    static public let shared = MEDLoadingOverlay()
     
     var overlayView = UIView()
     var activityIndicatorView = MEDActivityIndicatorView()
@@ -18,7 +18,7 @@ class MEDLoadingOverlay: UIView {
     
     private var circlePathLayer = CAShapeLayer()
     
-    func showOverlay(inView view: UIView, withColor color: UIColor) {
+    public func showOverlay(inView view: UIView, withColor color: UIColor) {
         self.overlayView = UIView(frame: UIScreen.main.bounds)
         self.overlayView.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.5)
         let blurEffect = UIBlurEffect(style: .extraLight)
@@ -41,7 +41,7 @@ class MEDLoadingOverlay: UIView {
         view.addSubview(self.overlayView)
     }
     
-    func hideOverlayView() {
+    public func hideOverlayView() {
         self.activityIndicatorView.stopAnimating()
         self.overlayView.removeFromSuperview()
     }
