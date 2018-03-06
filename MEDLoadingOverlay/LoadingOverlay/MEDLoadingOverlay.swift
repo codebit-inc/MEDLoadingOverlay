@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import MedusaKit
 
 class MEDLoadingOverlay: UIView {
 
@@ -19,7 +18,7 @@ class MEDLoadingOverlay: UIView {
     
     private var circlePathLayer = CAShapeLayer()
     
-    func showOverlay(view: UIView!) {
+    func showOverlay(inView view: UIView, withColor color: UIColor) {
         self.overlayView = UIView(frame: UIScreen.main.bounds)
         self.overlayView.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.5)
         let blurEffect = UIBlurEffect(style: .extraLight)
@@ -33,7 +32,8 @@ class MEDLoadingOverlay: UIView {
         
         self.activityIndicatorView.frame = CGRect(x: 0.0, y: 0.0, width: 40.0, height: 40.0)
         self.activityIndicatorView.lineWidth = 1.0
-        self.activityIndicatorView.color = UIColor(hexString: "#555765")!
+//        self.activityIndicatorView.color = UIColor(hexString: "#555765")!
+        self.activityIndicatorView.color = color
         self.activityIndicatorView.backgroundColor = UIColor.clear
         self.activityIndicatorView.center = self.overlayView.center
         self.activityIndicatorView.startAnimating()
