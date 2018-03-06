@@ -7,113 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B0BBAE0204D8FFD005FD62C /* MEDLoadingOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B0BBADE204D8FFD005FD62C /* MEDLoadingOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B0BBAE8204D905E005FD62C /* MEDLoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0BBAE7204D905E005FD62C /* MEDLoadingOverlay.swift */; };
-		0B0BBAEA204D907D005FD62C /* MEDActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0BBAE9204D907D005FD62C /* MEDActivityIndicatorView.swift */; };
-		DDB5E4BCDD1F947A21BD9450 /* Pods_MEDLoadingOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E502DE2218A41DAE5616C3C4 /* Pods_MEDLoadingOverlay.framework */; };
+		0B0BBB42204EF3B5005FD62C /* MEDLoadingOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B0BBB40204EF3B5005FD62C /* MEDLoadingOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B0BBB4B204EF406005FD62C /* MEDLoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0BBB49204EF406005FD62C /* MEDLoadingOverlay.swift */; };
+		0B0BBB4C204EF406005FD62C /* MEDActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0BBB4A204EF406005FD62C /* MEDActivityIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B0BBADB204D8FFD005FD62C /* MEDLoadingOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MEDLoadingOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B0BBADE204D8FFD005FD62C /* MEDLoadingOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEDLoadingOverlay.h; sourceTree = "<group>"; };
-		0B0BBADF204D8FFD005FD62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B0BBAE7204D905E005FD62C /* MEDLoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDLoadingOverlay.swift; sourceTree = "<group>"; };
-		0B0BBAE9204D907D005FD62C /* MEDActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDActivityIndicatorView.swift; sourceTree = "<group>"; };
-		966C693983EFC88CED8653B0 /* Pods-MEDLoadingOverlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDLoadingOverlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MEDLoadingOverlay/Pods-MEDLoadingOverlay.debug.xcconfig"; sourceTree = "<group>"; };
-		9FE6AE111CBBCA682E53B27F /* Pods-MEDLoadingOverlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDLoadingOverlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-MEDLoadingOverlay/Pods-MEDLoadingOverlay.release.xcconfig"; sourceTree = "<group>"; };
-		E502DE2218A41DAE5616C3C4 /* Pods_MEDLoadingOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDLoadingOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0BBB3D204EF3B5005FD62C /* MEDLoadingOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MEDLoadingOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0BBB40204EF3B5005FD62C /* MEDLoadingOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEDLoadingOverlay.h; sourceTree = "<group>"; };
+		0B0BBB41204EF3B5005FD62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0BBB49204EF406005FD62C /* MEDLoadingOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEDLoadingOverlay.swift; sourceTree = "<group>"; };
+		0B0BBB4A204EF406005FD62C /* MEDActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEDActivityIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0B0BBAD7204D8FFD005FD62C /* Frameworks */ = {
+		0B0BBB39204EF3B5005FD62C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDB5E4BCDD1F947A21BD9450 /* Pods_MEDLoadingOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B0BBAD1204D8FFD005FD62C = {
+		0B0BBB33204EF3B5005FD62C = {
 			isa = PBXGroup;
 			children = (
-				0B0BBADD204D8FFD005FD62C /* MEDLoadingOverlay */,
-				0B0BBADC204D8FFD005FD62C /* Products */,
-				7E2656AB730CCAEFFCD33D2D /* Pods */,
-				D77C24367FDE793D22AF1336 /* Frameworks */,
+				0B0BBB3F204EF3B5005FD62C /* MEDLoadingOverlay */,
+				0B0BBB3E204EF3B5005FD62C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0B0BBADC204D8FFD005FD62C /* Products */ = {
+		0B0BBB3E204EF3B5005FD62C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B0BBADB204D8FFD005FD62C /* MEDLoadingOverlay.framework */,
+				0B0BBB3D204EF3B5005FD62C /* MEDLoadingOverlay.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B0BBADD204D8FFD005FD62C /* MEDLoadingOverlay */ = {
+		0B0BBB3F204EF3B5005FD62C /* MEDLoadingOverlay */ = {
 			isa = PBXGroup;
 			children = (
-				0B0BBAE6204D9036005FD62C /* LoadingOverlay */,
-				0B0BBADE204D8FFD005FD62C /* MEDLoadingOverlay.h */,
-				0B0BBADF204D8FFD005FD62C /* Info.plist */,
+				0B0BBB48204EF3EA005FD62C /* LoadingOverlay */,
+				0B0BBB40204EF3B5005FD62C /* MEDLoadingOverlay.h */,
+				0B0BBB41204EF3B5005FD62C /* Info.plist */,
 			);
 			path = MEDLoadingOverlay;
 			sourceTree = "<group>";
 		};
-		0B0BBAE6204D9036005FD62C /* LoadingOverlay */ = {
+		0B0BBB48204EF3EA005FD62C /* LoadingOverlay */ = {
 			isa = PBXGroup;
 			children = (
-				0B0BBAE7204D905E005FD62C /* MEDLoadingOverlay.swift */,
-				0B0BBAE9204D907D005FD62C /* MEDActivityIndicatorView.swift */,
+				0B0BBB49204EF406005FD62C /* MEDLoadingOverlay.swift */,
+				0B0BBB4A204EF406005FD62C /* MEDActivityIndicatorView.swift */,
 			);
 			path = LoadingOverlay;
-			sourceTree = "<group>";
-		};
-		7E2656AB730CCAEFFCD33D2D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				966C693983EFC88CED8653B0 /* Pods-MEDLoadingOverlay.debug.xcconfig */,
-				9FE6AE111CBBCA682E53B27F /* Pods-MEDLoadingOverlay.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		D77C24367FDE793D22AF1336 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E502DE2218A41DAE5616C3C4 /* Pods_MEDLoadingOverlay.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0B0BBAD8204D8FFD005FD62C /* Headers */ = {
+		0B0BBB3A204EF3B5005FD62C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B0BBAE0204D8FFD005FD62C /* MEDLoadingOverlay.h in Headers */,
+				0B0BBB42204EF3B5005FD62C /* MEDLoadingOverlay.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0B0BBADA204D8FFD005FD62C /* MEDLoadingOverlay */ = {
+		0B0BBB3C204EF3B5005FD62C /* MEDLoadingOverlay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B0BBAE3204D8FFD005FD62C /* Build configuration list for PBXNativeTarget "MEDLoadingOverlay" */;
+			buildConfigurationList = 0B0BBB45204EF3B5005FD62C /* Build configuration list for PBXNativeTarget "MEDLoadingOverlay" */;
 			buildPhases = (
-				4F1240B37586FBA295A071E0 /* [CP] Check Pods Manifest.lock */,
-				0B0BBAD6204D8FFD005FD62C /* Sources */,
-				0B0BBAD7204D8FFD005FD62C /* Frameworks */,
-				0B0BBAD8204D8FFD005FD62C /* Headers */,
-				0B0BBAD9204D8FFD005FD62C /* Resources */,
-				F95CDFF4D5505623FD7624AC /* [CP] Copy Pods Resources */,
+				0B0BBB38204EF3B5005FD62C /* Sources */,
+				0B0BBB39204EF3B5005FD62C /* Frameworks */,
+				0B0BBB3A204EF3B5005FD62C /* Headers */,
+				0B0BBB3B204EF3B5005FD62C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -121,45 +95,45 @@
 			);
 			name = MEDLoadingOverlay;
 			productName = MEDLoadingOverlay;
-			productReference = 0B0BBADB204D8FFD005FD62C /* MEDLoadingOverlay.framework */;
+			productReference = 0B0BBB3D204EF3B5005FD62C /* MEDLoadingOverlay.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0B0BBAD2204D8FFD005FD62C /* Project object */ = {
+		0B0BBB34204EF3B5005FD62C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MED;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "CODEBIT INC.";
 				TargetAttributes = {
-					0B0BBADA204D8FFD005FD62C = {
+					0B0BBB3C204EF3B5005FD62C = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0B0BBAD5204D8FFD005FD62C /* Build configuration list for PBXProject "MEDLoadingOverlay" */;
+			buildConfigurationList = 0B0BBB37204EF3B5005FD62C /* Build configuration list for PBXProject "MEDLoadingOverlay" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0B0BBAD1204D8FFD005FD62C;
-			productRefGroup = 0B0BBADC204D8FFD005FD62C /* Products */;
+			mainGroup = 0B0BBB33204EF3B5005FD62C;
+			productRefGroup = 0B0BBB3E204EF3B5005FD62C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B0BBADA204D8FFD005FD62C /* MEDLoadingOverlay */,
+				0B0BBB3C204EF3B5005FD62C /* MEDLoadingOverlay */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0B0BBAD9204D8FFD005FD62C /* Resources */ = {
+		0B0BBB3B204EF3B5005FD62C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -168,56 +142,20 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		4F1240B37586FBA295A071E0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MEDLoadingOverlay-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F95CDFF4D5505623FD7624AC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MEDLoadingOverlay/Pods-MEDLoadingOverlay-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0B0BBAD6204D8FFD005FD62C /* Sources */ = {
+		0B0BBB38204EF3B5005FD62C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B0BBAEA204D907D005FD62C /* MEDActivityIndicatorView.swift in Sources */,
-				0B0BBAE8204D905E005FD62C /* MEDLoadingOverlay.swift in Sources */,
+				0B0BBB4C204EF406005FD62C /* MEDActivityIndicatorView.swift in Sources */,
+				0B0BBB4B204EF406005FD62C /* MEDLoadingOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0B0BBAE1204D8FFD005FD62C /* Debug */ = {
+		0B0BBB43204EF3B5005FD62C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -277,7 +215,7 @@
 			};
 			name = Debug;
 		};
-		0B0BBAE2204D8FFD005FD62C /* Release */ = {
+		0B0BBB44204EF3B5005FD62C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,9 +268,8 @@
 			};
 			name = Release;
 		};
-		0B0BBAE4204D8FFD005FD62C /* Debug */ = {
+		0B0BBB46204EF3B5005FD62C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 966C693983EFC88CED8653B0 /* Pods-MEDLoadingOverlay.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -355,9 +292,8 @@
 			};
 			name = Debug;
 		};
-		0B0BBAE5204D8FFD005FD62C /* Release */ = {
+		0B0BBB47204EF3B5005FD62C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FE6AE111CBBCA682E53B27F /* Pods-MEDLoadingOverlay.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -382,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B0BBAD5204D8FFD005FD62C /* Build configuration list for PBXProject "MEDLoadingOverlay" */ = {
+		0B0BBB37204EF3B5005FD62C /* Build configuration list for PBXProject "MEDLoadingOverlay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B0BBAE1204D8FFD005FD62C /* Debug */,
-				0B0BBAE2204D8FFD005FD62C /* Release */,
+				0B0BBB43204EF3B5005FD62C /* Debug */,
+				0B0BBB44204EF3B5005FD62C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B0BBAE3204D8FFD005FD62C /* Build configuration list for PBXNativeTarget "MEDLoadingOverlay" */ = {
+		0B0BBB45204EF3B5005FD62C /* Build configuration list for PBXNativeTarget "MEDLoadingOverlay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B0BBAE4204D8FFD005FD62C /* Debug */,
-				0B0BBAE5204D8FFD005FD62C /* Release */,
+				0B0BBB46204EF3B5005FD62C /* Debug */,
+				0B0BBB47204EF3B5005FD62C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0B0BBAD2204D8FFD005FD62C /* Project object */;
+	rootObject = 0B0BBB34204EF3B5005FD62C /* Project object */;
 }

@@ -32,7 +32,6 @@ public class MEDLoadingOverlay: UIView {
         
         self.activityIndicatorView.frame = CGRect(x: 0.0, y: 0.0, width: 40.0, height: 40.0)
         self.activityIndicatorView.lineWidth = 1.0
-//        self.activityIndicatorView.color = UIColor(hexString: "#555765")!
         self.activityIndicatorView.color = color
         self.activityIndicatorView.backgroundColor = UIColor.clear
         self.activityIndicatorView.center = self.overlayView.center
