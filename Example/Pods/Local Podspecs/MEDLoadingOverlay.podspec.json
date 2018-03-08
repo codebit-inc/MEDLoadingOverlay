@@ -1,0 +1,25 @@
+{
+  "name": "MEDLoadingOverlay",
+  "version": "0.0.1",
+  "summary": "A short description of MEDLoadingOverlay.",
+  "description": "A long description of MEDLoadingOverlay.",
+  "homepage": "https://medusakit.com/MEDLoadingOverlay",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CODEBIT INC.": "support@codebit-inc.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/codebit-inc/MEDLoadingOverlay.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "MEDLoadingOverlay",
+    "Pod/Classes/**/*.{swift}"
+  ]
+}

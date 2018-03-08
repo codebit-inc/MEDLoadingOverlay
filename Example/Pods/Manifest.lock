@@ -1,0 +1,16 @@
+PODS:
+  - MEDLoadingOverlay (0.0.1)
+
+DEPENDENCIES:
+  - MEDLoadingOverlay (from `../`)
+
+EXTERNAL SOURCES:
+  MEDLoadingOverlay:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MEDLoadingOverlay: d6204474b81c3df5f0c89e8fe6834ae9bd291097
+
+PODFILE CHECKSUM: bdd5c8b1b5c7571c5d3cc91c3f5482a934414629
+
+COCOAPODS: 1.4.0
