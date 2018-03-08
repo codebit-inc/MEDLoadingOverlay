@@ -11,15 +11,22 @@ import MEDLoadingOverlay
 
 class ViewController: UIViewController {
 
+    @IBAction func showLoadingOverlay(_ sender: UIButton) {
+        
+        // Show Loading Overlay
+        MEDLoadingOverlay.shared.showOverlay(inView: (self.navigationController?.view)!, withColor: .gray)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 6.0) {
+            // Hide Loading Overlay
+            MEDLoadingOverlay.shared.hideOverlayView()
+        }
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        // Show Loading Overlay
-        MEDLoadingOverlay.shared.showOverlay(inView: self.view, withColor: .gray)
-        
-        // Hide Loading Overlay
-        // MEDLoadingOverlay.shared.hideOverlayView()
     }
 
     override func didReceiveMemoryWarning() {
