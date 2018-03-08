@@ -14,5 +14,6 @@ before_install:
 
 script:
   - set -o pipefail
+  - pod install
   - xcodebuild clean
   - xcodebuild -project "$XCODE_PROJECT" -scheme "$SCHEME" -configuration Debug clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty -c
