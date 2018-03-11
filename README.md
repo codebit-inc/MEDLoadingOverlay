@@ -16,5 +16,4 @@ MEDLoadingOverlay.shared.hideOverlayView()
 
 ##### Demo
 
-![Demo](https://github.com/codebit-inc/MEDLoadingOverlay/blob/master/MEDLoadingOverlay-Demo.gif)
 <img src="https://github.com/codebit-inc/MEDLoadingOverlay/blob/master/MEDLoadingOverlay-Demo.gif" width="350"/>
