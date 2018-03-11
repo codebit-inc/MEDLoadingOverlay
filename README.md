@@ -13,3 +13,7 @@ MEDLoadingOverlay.shared.showOverlay(inView: (self.navigationController?.view)!,
 /* to hide the loading overlay */
 MEDLoadingOverlay.shared.hideOverlayView()
 ```
+
+##### Demo
+
+![Demo](https://github.com/codebit-inc/MEDLoadingOverlay/blob/master/MEDLoadingOverlay-Demo.gif)
