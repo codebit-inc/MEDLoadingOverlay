@@ -11,7 +11,7 @@ _MEDLoadingOverlay is a simple overlay view shows loading animation for iOS apps
 
 ### Installing MEDLoadingOverlay with CocoaPods
 
-MEDLoadingOverlay is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
+MEDLoadingOverlay is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following lines to your Podfile:
 
 ```ruby
 # Uncomment the next line to define a global platform for your project
